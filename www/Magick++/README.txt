@@ -1,5 +1,3 @@
-This directory contains the Magick++ documentation.
-
-The file NEWS.html is generated from Magick++ source directory via
- txt2html -t 'Magick++ News' < NEWS  > ../www/Magick++/NEWS.html
-using Seth Golub's fantastic txt2html translator.
+version https://git-lfs.github.com/spec/v1
+oid sha256:03d24e61af25a0a79ee84b032877d97cc249afbb52e892a93cb4d9fbab021a11
+size 235

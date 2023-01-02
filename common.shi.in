@@ -1,27 +1,3 @@
-# -*- shell-script -*-
-# Copyright 1999-2021 ImageMagick Studio LLC
-# Definitions of optional features and configuration values for this build.
-# Intended for use by test scripts.
-MAGICK_FEATURES='@MAGICK_FEATURES@'
-top_srcdir='@abs_top_srcdir@'
-top_builddir='@abs_top_builddir@'
-
-set -a
-COMPARE="@abs_top_builddir@/utilities/magick compare"
-COMPOSITE="@abs_top_builddir@/utilities/magick composite"
-CONJURE="@abs_top_builddir@/utilities/magick conjure"
-CONVERT="@abs_top_builddir@/utilities/magick convert"
-DISPLAY="@abs_top_builddir@/utilities/magick display"
-IDENTIFY="@abs_top_builddir@/utilities/magick identify"
-MAGICK="@abs_top_builddir@/utilities/magick"
-MONTAGE="@abs_top_builddir@/utilities/magick montage"
-VALIDATE="@abs_top_builddir@/tests/validate"
-DRAWTEST="@abs_top_builddir@/tests/drawtest"
-WANDTEST="@abs_top_builddir@/tests/wandtest"
-LD_LIBRARY_PATH="@abs_top_builddir@/MagickCore/.libs:@abs_top_builddir@/MagickWand/.libs:${LD_LIBRARY_PATH}"
-MAGICK_CODER_MODULE_PATH="@abs_top_builddir@/coders"
-MAGICK_CONFIGURE_PATH="@abs_top_builddir@/config:@abs_top_srcdir@/config"
-MAGICK_FILTER_MODULE_PATH="@abs_top_builddir@/filters"
-MAGICK_FONT="@abs_top_srcdir@/PerlMagick/demo/Generic.ttf"
-PATH="@abs_top_builddir@/utilities:@abs_top_builddir@/tests:${PATH}"
-set +a
+version https://git-lfs.github.com/spec/v1
+oid sha256:3de42d8d466bb5138c8dc62831c3c42a9876adc603260b944edfa0ec543bdaf3
+size 1278

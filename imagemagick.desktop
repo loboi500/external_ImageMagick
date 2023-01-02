@@ -1,8 +1,3 @@
-[Desktop Entry]
-Name=ImageMagick
-Type=Application
-Exec=magick
-Icon=imagemagick
-Comment=Create, edit, compose, or convert bitmap images
-Categories=Graphics;
-Terminal=true
+version https://git-lfs.github.com/spec/v1
+oid sha256:3466fb02f7267bd79368071fc8d3a0d30303be5261f18a67c72cd7fa15815f81
+size 170
